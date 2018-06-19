@@ -1,0 +1,31 @@
+.Product {
+	width: 250px;
+	height: 300px;
+    margin: 5px 0;
+    flex-flow: row;
+    font-size: 10px;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    cursor: pointer;
+}
+.Image{
+    height: 200px;
+    width: 250px;
+    align-self: center;
+}
+.Title {
+    padding: 0 5px;
+    font-weight: bold;
+    width: 150px;
+    align-self: center;
+    text-align: center;
+}
+.Price {
+    padding: 0 2px;
+    font-weight: bold;
+    width: 20px;
+    align-self: center;
+    text-align: center;
+}

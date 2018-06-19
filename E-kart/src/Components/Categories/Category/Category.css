@@ -1,0 +1,14 @@
+.Category {
+    width: 90%;
+    height: 40px;
+    left: 0;
+    top: 0;
+    padding: 0 10px;
+    font-weight: lighter;
+    flex-flow: row;
+    cursor: pointer;
+}
+.Category:hover,
+.Category:active {
+    opacity: 0.3;
+}

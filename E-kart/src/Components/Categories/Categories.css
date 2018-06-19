@@ -1,0 +1,12 @@
+.Categories {
+    width: 100%;
+    left: 0;
+    top: 0;
+    background-color: black;
+    color: white;
+    opacity: 0.7;
+    padding: 5px 15px;
+    box-sizing: border-box;
+    flex-flow: row;
+}
+

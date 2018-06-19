@@ -1,0 +1,54 @@
+.ViewPage {
+    width: 100%;
+    margin: auto;
+    height: 100%;
+    text-align: center;
+    padding: 15px 15px;
+}
+
+.Products {
+    width: 100%;
+    margin-left: 300px;
+    height: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    text-align: center;
+    padding: 15px 15px;
+}
+
+.Product {
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+.Category {
+    width: 100%;
+    height: 100px;
+    margin: auto;
+    font-weight: bold;
+    padding: 5px 10px;
+}
+
+@media (min-width: 500px) and (min-height: 400px) {
+    .Products {
+        width: 350px;
+        height: 300px;
+    }
+}
+
+@media (min-width: 500px) and (min-height: 401px) {
+    .Products {
+        width: 450px;
+        height: 400px;
+    }
+}
+
+@media (min-width: 1000px) and (min-height: 700px) {
+    .Products {
+        width: 700px;
+        height: 600px;
+    }
+}
